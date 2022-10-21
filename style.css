@@ -15,18 +15,22 @@ video {
 	z-index: 1;
 }
 
-#title {
-	z-index: 1;
-	display: flex;
-	justify-content: center;
-	margin-top: 1%;
-	font-weight: bold;
-	font-size: 30px;
+.confetti-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3%;
+  margin-top: 1%;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.choice {
-	display: flex;
-	justify-content: center;
+.choice-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .videos-container {
